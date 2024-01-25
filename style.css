@@ -1,46 +1,4 @@
-/* body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  section {
-    max-width: 600px;
-    margin: 20px auto;
-  }
-  
-  .menu-item {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 5px;
-  }
-  
-  .menu-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  p {
-    color: #666;
-  }
-   */
-
-   body {
+body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -56,8 +14,8 @@
   
   .menu-container {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
   
   .menu-item {
@@ -66,24 +24,39 @@
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
-    width: 350px;
+    width: 100%;
+    box-sizing: border-box;
   }
   
   .menu-item img {
-    max-width: 30%;
+    max-width: 100%;
     height: auto;
     border-radius: 5px;
   }
   
-  .menu-text {
-    text-align: left;
+  .item-info {
+    text-align: center;
   }
   
   h2 {
     color: #333;
   }
   
+  .price {
+    color: #007bff; /* Blue color for price */
+  }
+  
   p {
     color: #666;
+  }
+  
+  .order-button {
+    background-color: #28a745; /* Green color for the button */
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
   }
   
