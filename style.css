@@ -72,7 +72,7 @@ body {
     }
   
     .menu-item {
-      flex-direction: column; /* Stack items vertically on smaller screens */
+      flex-direction: row; /* Stack items vertically on smaller screens */
       align-items: flex-start;
     }
   
