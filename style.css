@@ -13,9 +13,10 @@ body {
   }
   
   .menu-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    max-width: 800px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    box-sizing: border-box;
   }
   
   .menu-item {
@@ -24,7 +25,6 @@ body {
     margin: 10px 0;
     padding: 15px;
     border-radius: 5px;
-    width: 100%;
     box-sizing: border-box;
   }
   
