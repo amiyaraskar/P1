@@ -74,6 +74,7 @@ body {
     .menu-item {
       flex-direction: row; /* Stack items vertically on smaller screens */
       align-items: flex-start;
+      margin-right: 20px;
     }
   
     .menu-item img {
