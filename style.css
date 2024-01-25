@@ -29,13 +29,14 @@ body {
     flex-direction: row; /* Set direction to row */
     align-items: center;
     justify-content: space-between; /* Align items to start and end */
+    margin-right: 20px;
   }
   
   .menu-item img {
     max-width: 40%; /* Adjust the width of the image as needed */
     height: auto;
     border-radius: 5px;
-    margin-right: 10px; /* Add margin to the right of the image for spacing */
+    margin-right: 30px; /* Add margin to the right of the image for spacing */
   }
   
   .item-info {
