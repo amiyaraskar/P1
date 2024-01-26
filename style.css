@@ -8,17 +8,17 @@ body {
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Snell Roundhand', cursive, sans-serif; ;
     font-size: 140%;
     margin-top: 1%;
     margin-bottom: 10%;
-    color: #808080;
+    color: #b97b7b;
 }
 
 .subheading {
     font-family: 'Satisfy', cursive;
     font-size: 160%;
-    color: #ac8871;
+    color: #512307;
 }
 
 .header {
