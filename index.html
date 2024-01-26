@@ -1,75 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Import Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Import Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-  <!-- Import your style.css stylesheet -->
-  <link rel="stylesheet" href="style.css">
+    <!-- Import your style.css stylesheet -->
+    <link rel="stylesheet" href="style.css">
 
-  <title>Food Menu</title>
-</head>
+  </head>
+  <!-- Implement below this point -->
 
-<body>
-  <header>
-    <img src="Mandolas.jpg" alt="Logo" class="header-img">
-    <h1>Delicious Italian Cuisine</h1>
-    <h3>Austin, Texas</h3>
-  </header>
+  <body>
+    <div class="header">
+      <img class="logo" src="logo.png" alt="logo" />
+    </div>    
+    <div class="subheading">Delicious Vietnamese Recipes</div>
+    <h1>The Best Choice at UT!</h1>
 
-  <section class="menu-container">
-    <div class="menu-item">
-      <img src="Bruschetta.jpeg" alt="Bruschetta">
-      <div class="item-info">
-        <h6>Bruschetta alla Checca</h6>
-        <p class="description">Garlic toast topped with tomatoes, garlic, basil & olive oil.</p>
-        <div class="price-and-button">
-          <p class="price">$9.00</p>
-          <button class="order-button">Add</button>
-        </div>
-      </div>
-    </div>
+    <!-- Menu Items Section -->
+    <div class="menu-container">
+      <div class="menu-item">
+        <img class="menu-image rounded" src="pho.jpeg" alt="Pho">
+        <div class="item-details">
+          <h2 class="title">Pho</h2>
+          <p>Noodles with soup, veggies, & meat.</p>
+          <div class="price-and-button">
+            <p class="price">Price: $10.99</p>
+            <button class="rounded">Add</button>
+          </div>
+        </div>
+      </div>
 
-    <div class="menu-item">
-      <img src="Caprese.jpeg" alt="Panini">
-      <div class="item-info">
-        <h6>Caprese Panini</h6>
-        <p class="description">Tomato, fresh mozzarella, fresh basil & olive oil served hot or cold on focaccia.</p>
-        <div class="price-and-button">
-          <p class="price">$12.00</p>
-          <button class="order-button">Add</button>
-        </div>
-      </div>
-    </div>
+      <div class="menu-item">
+        <img class="menu-image rounded" src="banhmi.jpeg" alt="Banh Mi">
+        <div class="item-details">
+          <h2 class="title">Banh Mi</h2>
+          <p>Baguette filled with veggies & meat.</p>
+          <div class="price-and-button">
+            <p class="price">Price: $5.99</p>
+            <button class="rounded">Add</button>
+          </div>
+        </div>
+      </div>
 
-    <div class="menu-item">
-      <img src="ChickenParm.jpeg" alt="Chicken Parmesan">
-      <div class="item-info">
-        <h6>Chicken Parmesan</h6>
-        <p class="description">Chicken breast coated with breading, mozzarella, marinara sauce and served with Fettuccine Alfredo.</p>
-        <div class="price-and-button">
-          <p class="price">$16.00</p>
-          <button class="order-button">Add</button>
-        </div>
-      </div>
-    </div>
+      <div class="menu-item">
+        <img class="menu-image rounded" src="friedrice.jpeg" alt="Fried Rice">
+        <div class="item-details">
+          <h2 class="title">Fried Rice</h2>
+          <p>Rice, stir-fried with veggies & meat.</p>
+          <div class="price-and-button">
+            <p class="price">Price: $8.99</p>
+            <button class="rounded">Add</button>
+          </div>
+        </div>
+      </div>
 
-    <div class="menu-item">
-      <img src="EggplantParm.jpeg" alt="Eggplant Parmesan">
-      <div class="item-info">
-        <h6>Eggplant Parmigiana</h6>
-        <p class="description">Baked eggplant with tomato sauce, breadcrumbs, mozzarella cheese, served with marinara.</p>
-        <div class="price-and-button">
-          <p class="price">$14.50</p>
-          <button class="order-button">Add</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-</body>
+      <div class="menu-item">
+        <img class="menu-image rounded" src="dumplings.jpg" alt="Dumplings">
+        <div class="item-details">
+          <h2 class="title">Dumplings</h2>
+          <p>Dough filled with flavorful broth & meat.</p>
+          <div class="price-and-button">
+            <p class="price">Price: $14.99</p>
+            <button class="rounded">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
