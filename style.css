@@ -6,14 +6,13 @@ body {
   }
 
   header {
-    /* Remove the background-color property or set it to 'transparent' */
     color: #333;
     text-align: center;
     padding: 10px;
   }
 
   .header-img {
-    max-width: 50%;
+    max-width: 75%;
     align-self: center;
   }
 
