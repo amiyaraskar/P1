@@ -87,6 +87,7 @@ body {
   @media (max-width: 600px) {
     .menu-container {
       padding: 10px;
+      align-items: center;
     }
   
     .menu-item {
