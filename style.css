@@ -56,7 +56,7 @@ body {
   .menu-item .price-and-button {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
   }
   
   .menu-item .price {
