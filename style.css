@@ -17,9 +17,9 @@ body {
     align-self: center;
   }
 
-  h2 {
+  h1 {
     color: #333;
-    font-family: 'cursive', sans-serif; /* Make h2 in cursive */
+    font-family: 'cursive', sans-serif; /* Make h1 in cursive */
   }
   
   .menu-container {
@@ -91,7 +91,7 @@ body {
     }
 
     .header-img {
-        max-width: 50%;
+        max-width: 75%;
         align-self: center;
         height: auto;
       }
