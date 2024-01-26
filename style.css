@@ -50,11 +50,11 @@ p {
     border-radius: 10px;
 }
 
-.rounded {
+.button {
     border-radius: 10px;
 }
 
-.item-details {
+.item-description {
     text-align: left;
     flex: 1;
 }
@@ -67,7 +67,7 @@ p {
     font-size: 20px;
 }
 
-.price-and-button {
+.price-and-button-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
