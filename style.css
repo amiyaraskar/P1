@@ -7,6 +7,10 @@ body {
     margin: 10%;
 }
 
+p {
+    font-size: small;
+}
+
 h1 {
     font-family: sans-serif; ;
     font-size: 140%;
@@ -15,8 +19,9 @@ h1 {
     color: #b97b7b;
 }
 
-p {
-    font-size: small;
+.header {
+    width: 100%;
+    text-align: center;
 }
 
 .subheading {
@@ -25,16 +30,15 @@ p {
     color: #512307;
 }
 
-.header {
-    width: 100%;
-    text-align: center;
-}
-
 .logo {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.item-name {
+    font-size: 20px;
 }
 
 .menu-item {
@@ -50,10 +54,6 @@ p {
     border-radius: 10px;
 }
 
-.rounded {
-    border-radius: 10px;
-}
-
 .item-details {
     text-align: left;
     flex: 1;
@@ -63,8 +63,8 @@ p {
     padding-top: 18px;
 }
 
-.title {
-    font-size: 20px;
+.rounded {
+    border-radius: 10px;
 }
 
 .price-and-button {
