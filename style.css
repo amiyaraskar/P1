@@ -60,6 +60,10 @@ body {
   p {
     color: #666;
   }
+
+  .description {
+    font-size: small;
+  }
   
   .order-button {
     background-color: #d3d3d3;
