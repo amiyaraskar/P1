@@ -24,12 +24,6 @@ h1 {
     text-align: center;
 }
 
-.subheading {
-    font-family: 'Snell Roundhand', cursive, sans-serif;
-    font-size: 160%;
-    color: #512307;
-}
-
 .logo {
     max-width: 100%;
     height: auto;
@@ -37,8 +31,16 @@ h1 {
     margin: 0 auto;
 }
 
-.item-name {
-    font-size: 20px;
+.subheading {
+    font-family: 'Snell Roundhand', cursive, sans-serif;
+    font-size: 160%;
+    color: #512307;
+}
+
+.menu-container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .menu-item {
@@ -59,12 +61,8 @@ h1 {
     flex: 1;
 }
 
-.price {
-    padding-top: 18px;
-}
-
-.rounded {
-    border-radius: 10px;
+.item-name {
+    font-size: 20px;
 }
 
 .price-and-button {
@@ -73,8 +71,10 @@ h1 {
     justify-content: space-between;
 }
 
-.menu-container {
-    max-width: 500px;
-    width: 100%;
-    margin: 0 auto;
+.price {
+    padding-top: 18px;
+}
+
+.rounded {
+    border-radius: 10px;
 }
