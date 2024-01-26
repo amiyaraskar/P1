@@ -79,7 +79,8 @@ body {
   
     .menu-item img {
       max-width: 30%;
-      margin-right: 0; /* Remove right margin for full width on smaller screens */
+      margin-right: 20px; /* Remove right margin for full width on smaller screens */
+      height: 100px
     }
   }
   
