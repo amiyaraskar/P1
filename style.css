@@ -52,9 +52,15 @@ body {
     flex: 1; /* Take remaining space */
     text-align: left;
   }
+
+  .menu-item .price-and-button {
+    display: flex;
+    align-items: center;
+  }
   
-  .price {
-    color: #000; /* Blue color for price */
+  .menu-item .price {
+    flex: 1;
+    color: #000;
   }
   
   p {
@@ -64,8 +70,8 @@ body {
   .description {
     font-size: small;
   }
-  
-  .order-button {
+
+  .menu-item .order-button {
     background-color: #d3d3d3;
     color: #fff;
     padding: 8px 12px;
